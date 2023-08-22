@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(2011ShaytonEquilibriumRenderingsFront212-1.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    
+
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto ;
+
+}
+.head h1{
+    padding-top: 10px;
+    padding-left:20px;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+.head h2{
+    position: relative;
+    top: 120px;
+  right:20%;
+  text-transform: uppercase;
+  font-style:italic ;
+  font-size: 25px;
+}
+.head ul{
+    padding-right: 40px;
+
+}
+.head ul a{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.head ul a:hover{
+    color: white;
+    transform: scale(1.2);
+   
+   
+}
+.form{
+    width: 30%;
+    height: 50vh;
+    background-color: #444;
+    opacity: 0.3;
+    position: relative;
+    top:200px;
+    left: 70px;
+}
+.form h3{
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.form p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.form input{
+    width: 70%;
+    text-align: center;
+    margin: 3px 50px;
+    height: 35px;
+}
+.form button{
+    background-color: black;
+    color: aliceblue;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    margin:0 35%;
+    
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.form button:hover{
+    transform: scale(1.1);
+    background-color:#444 ;
+    letter-spacing: 2px;
+}
